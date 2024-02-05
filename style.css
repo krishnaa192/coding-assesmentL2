@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+ 
+}
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+   background-color: aliceblue;
+}
+a {
+  display: inline-block;
+  color: lightgrey;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.23);
+  color: white;
+  transform: scale(1.03);
+  text-decoration: none;
+}
+a:active {
+  transform: scale(0.98);
+}
+#choice{
+  width:100%;
+  height:17px;
+  top:25px;
+  left:121px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25.69px;
+}
+#Kids {
+  background:white;
+  cursor: pointer;
+  width: 100px;
+  height:20px;
+  top:54px;
+  left:150px;
+  border-radius: 2px;
+  color: #000000;
+}
+
+#Women {
+  background:white;
+  cursor: pointer;
+  width: 100px;
+  height:20px;
+  top:54px;
+  left:150px;
+  border-radius: 2px;
+  color: #000000;
+}
+#Men {
+  background:white;
+  cursor: pointer;
+  width: 100px;
+  height:20px;
+  top:54px;
+  left:150px;
+  border-radius: 2px;
+  color: #000000;
+}
+
+
+#main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 143px;
+  width: 100%;
+  margin-top: 20px;
+  gap:6px;
+  top:90px;
+  left:18px;
+}
+#products{
+   display: flex;
+   flex-direction: column;
+   width:88px;
+   height: 143px;
+}
+#imageContainer{
+   position: relative;
+}
+#image{
+  height: 100px;
+  width:  88px;
+  border-radius: 2px;
+}
+#badge_text{
+  font-size: 5px;
+  line-height: 8.03px;
+  font-weight: 600;
+  color:#000000;
+  background-color: white;
+  position: absolute;
+  top:0px;
+  left:4px;
+  padding: 2px;
+}
+#productDetail{
+  display: flex;
+  flex-direction: row;
+  margin-top: -8px;
+}
+#title{
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 12.85px;
+  color: #000000;
+  width: 48px;
+  height: 13px;
+  overflow: hidden;
+}
+#dot{
+  border-radius: 5px;
+  background-color: #000000;
+  width: 5px;
+  height: 5px;
+  padding-bottom: 1px;
+}
+#vendor{
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 9.63px;
+  color:#000000;
+  padding-top: 6px;
+  width:24px;
+  height:7px;
+  padding-left: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+#price{
+  font-weight: 600;
+  font-size: 6px;
+  line-height: 9.63px;
+  width: 30px;
+  height: 6px;
+}
+#off{
+  font-weight: 600;
+  font-size: 6px;
+  line-height: 9.63px;
+  color: #FF3737;
+  width:23px;
+  height:6px;
+  padding-left: 5px;
+}
+#comparePrice{
+  font-size:6px;
+  font-weight: 600;
+  line-height: 9.63px;
+  color:#8F8F8F;
+  text-decoration: line-through;
+}
+#priceDiv{
+  display: flex;
+  flex-direction: row;
+  margin-top: -18px;
+}
+#cart{
+  color:white;
+  background-color: #000000;
+  align-items: center;
+  font-weight: 600;
+  font-size: 6px;
+  line-height: 9.63px;
+  border-radius: 2px;
+  height:15px;
+  top:128px;
+  width: 88px;
+  padding-top: 4px;
+  cursor: pointer;
+  margin-top: -4px;
+}
+
+
+
+.button {
+  width: 200px;
+  height: 30px;
+  border: solid black 1px;
+  display: inline-block;
+  border-radius: 2px;
+  font-weight: 600;
+  padding-top: 10px;
+
+}
+/* CSS for mobile screens */
+@media only screen and (max-width: 767px) {
+
+  #main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 143px;
+  width: 100%;
+  margin-top: 20px;
+  gap:6px;
+  top:90px;
+  left:18px;
+}
+  #choice{
+  width:100%;
+  height:17px;
+  top:25px;
+  left:121px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25.69px;
+  }
+}
+
+/* CSS for tablet screens */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  #main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 143px;
+  width: 100%;
+  margin-top: 20px;
+  gap:6px;
+  top:90px;
+  left:18px;
+}
+}
+/* CSS for desktop screens */
+@media only screen and (min-width: 1025px) {
+
+  #main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 143px;
+  width: 100%;
+  margin-top: 20px;
+  gap:6px;
+  top:90px;
+  left:18px;
+}
+}
+
