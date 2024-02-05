@@ -33,6 +33,7 @@ git clone https://github.com/krishnaa192/coding-assesmentL2
 ```
 cd coding-assesmentL2
 ```
+3.or you can visit directly via website https://krishnaa192.github.io/coding-assesmentL2/
 ## Screenshots:
 ![image](https://github.com/krishnaa192/coding-assesmentL2/assets/86311851/63300485-da88-4ecf-aa96-e7928e7ace63)
 ![image](https://github.com/krishnaa192/coding-assesmentL2/assets/86311851/95805a22-ad4b-46ac-a86a-c3da3ad3c3a1)
