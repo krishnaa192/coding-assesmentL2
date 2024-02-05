@@ -28,3 +28,15 @@ This  web application allows users to browse products categorized by gender (mal
 
 ```bash
 git clone https://github.com/krishnaa192/coding-assesmentL2
+```
+2.Navgate the dicrectory
+```
+cd coding-assesmentL2
+```
+## Screenshots:
+![image](https://github.com/krishnaa192/coding-assesmentL2/assets/86311851/63300485-da88-4ecf-aa96-e7928e7ace63)
+![image](https://github.com/krishnaa192/coding-assesmentL2/assets/86311851/95805a22-ad4b-46ac-a86a-c3da3ad3c3a1)
+![image](https://github.com/krishnaa192/coding-assesmentL2/assets/86311851/8a67114b-8f80-4b1b-8fd6-308235136660)
+
+
+
