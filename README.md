@@ -1,29 +1,30 @@
-# Coding Assessment L-2 Code Submission Process with Boilerplate
+# coding-assesmentL2
 
-Welcome to the coding assessment l2. We are excited to see your skills in action. Please follow the instructions below to submit your solution.
+This  web application allows users to browse products categorized by gender (male, female, and child). It fetches product data from an external API and displays it organised.
 
-## Getting Started
+## Features
 
-1. **Clone or Download:**
-   - If using Git, clone the repository using the following command:
-     ```
-     git clone https://github.com/krishnaa192/coding-assesmentL2
-     ```
-   - Alternatively, download the code as a ZIP file and extract it.
+- **Category Tabs:** Users can switch between categories using tabs for males, females, and children.
+- **Dynamic Content:** Product data is fetched from an external API and dynamically displayed based on the selected category.
+- **Product Display:** Each product is displayed with its title, vendor, price, and discount information if available.
+- **Add to Cart:** Users can add products for future purchases.
 
-2. **Navigate to Project Directory:**
+## Usage
 
-3. **Explore the Structure:**
-Take a moment to the project structure:
+1. **Select Category:** Click on the desired category tab (Male, Female, or Child) to view products for that category.
+2. **View Products:** Browse the displayed products to view their details.
+3. **Add to Cart:** Click on the "Add to Cart" button to add a product to your cart.
 
-        project-root/
-        |-- index.html
-        |-- style.css
-        |-- script.js
-        |-- README.md
-- `index.html`: Main HTML file for  project.
-- `style.css`: CSS file for styling.
-- `script.js`: JavaScript file for scripting logic.
-- `README.md`: Documentation for  project.
+## Technologies Used
 
----
+- HTML
+- CSS
+- JavaScript
+- JSON data(for fetching product data)
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/krishnaa192/coding-assesmentL2
